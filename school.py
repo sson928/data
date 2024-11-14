@@ -1,7 +1,22 @@
 import streamlit as st
 import pandas as pd
 
-st.title("지역별 다문화가정 학생수 현황")
+st.set_page_config(page_title=
+st.set_page_config(pa
+
+st.set_page_confi
+
+st.set_page_c
+
+st.set_p
+
+st.
+"지역별 다문화가정 학생수 현황", layout="wide")
+st.title(
+st.title
+
+st.t
+"지역별 다문화가정 학생수 현황")
 
 data = pd.read_csv("다문화가정학생현황.csv")
 
