@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 
+st.title("지역별 다문화가정 학생수 현황")
 
 data = pd.read_csv("다문화가정학생현황.csv")
 
